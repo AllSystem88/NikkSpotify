@@ -57,7 +57,7 @@ class YouTubeUtils:
         if re.match("^https?://", video_id):
             video_url = video_id
                     
-        get_track = await HttpxClient().make_request(f"{API_URL}/track?url={video_url}&video={is_video}")
+        get_track = await HttpxClient().make_request(f"{API_URL}/api/track?url={video_url}&video={is_video}")
         if not get_track:
             LOGGER(__name__).error(f"Response from API is empty")
             return None
