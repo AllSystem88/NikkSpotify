@@ -17,7 +17,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # API URL - here
-API_URL = getenv("API_URL", "https://tgmusic.fallenapi.fun")
+API_URL = getenv("API_URL", "https://beta.fallenapi.fun")
 
 # API KEY - here
 API_KEY = getenv("API_KEY", None) #for api key contact @its_deep_ydv
